@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Introduce your commit :"
+read commit 
+
+git add . ;
+
+git commit -m "Commit : $commit";
+
+git push origin;
